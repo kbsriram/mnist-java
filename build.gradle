@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.tensorflow:tensorflow:1.2.0-rc1'
+}
+
+mainClassName = 'org.kbs.Main'
